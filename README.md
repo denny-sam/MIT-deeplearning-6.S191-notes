@@ -243,7 +243,7 @@ Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
         ```
         
     
-    [Lab1_Part1_TensorFlow_solved.ipynb](Lab1_Part1_TensorFlow_solved.ipynb)
+    [Lab1_Part1_TensorFlow_solved.ipynb](assets/Lab1_Part1_TensorFlow_solved.ipynb)
     
 - Part 2
     - The objective of the lab is to train an LSTM model on the ABC notation of some songs and generate songs of our own
@@ -449,7 +449,7 @@ Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
         - [https://www.youtube.com/watch?v=59bMh59JQDo](https://www.youtube.com/watch?v=59bMh59JQDo)
     
 
-[Lab2_Part2_Debiasing_solved.ipynb](Lab2_Part2_Debiasing_solved.ipynb)
+[Lab2_Part2_Debiasing_solved.ipynb](assets/Lab2_Part2_Debiasing_solved.ipynb)
 
 ## Lecture 5: Reinforcement Learning
 
@@ -554,7 +554,7 @@ Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
 
 ---
 
-[Lab3_RL_solved.ipynb](Lab3_RL_solved.ipynb)
+[Lab3_RL_solved.ipynb](assets/Lab3_RL_solved.ipynb)
 
 ## Lecture 7: Neurosymbolic AI
 
