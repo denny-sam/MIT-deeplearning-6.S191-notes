@@ -1,7 +1,31 @@
-# MIT Deep learning | 6.S191
+# Notes - MIT Deep learning | 6.S191
 
 Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
 
+## Contents
+[Lecture 1: Introduction to DL](#lecture-1:-introduction-to-dl)
+
+[Lecture 2: Recurrent Neural Networks](#lecture-2-recurrent-neural-networks)
+
+[Lab 1: Intro to TF & Music generation with RNNs](#lab-1-intro-to-tf--music-generation-with-rnns)
+
+[Lecture 4: Deep Generative Modeling](#lecture-4-deep-generative-modeling)
+
+[Lab 2: Basic CNN & Debiasing](#lab-2-basic-cnn--debiasing)
+
+[Lecture 5: Reinforcement Learning](#lecture-5-reinforcement-learning)
+
+[Lecture 6: Limitations and New Frontiers](#lecture-6-limitations-and-new-frontiers)
+
+[Lab 3: RL](#lab-3-rl)
+
+[Lecture 7: Neurosymbolic AI](#lecture-7-neurosymbolic-ai)
+
+[Lecture 8: Generalizable Autonomy for Robot Manipulation](#lecture-8-generalizable-autonomy-for-robot-manipulation)
+
+[Lecture 9: Neural Rendering](#lecture-9-neural-rendering)
+
+[Lecture 10: Machine learning for scent](#lecture-10-machine-learning-for-scent)
 
 
 ## Lecture 1: Introduction to DL
@@ -17,7 +41,7 @@ Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
     - Consists of some set of inputs, weights and bias.
     - What does a perceptron do?
         - Take your inputs, take the dot product of it with the weights, add bias, pass it through the non-linearity. This is the output of the perceptron
-    - 
+    
     
     ![](assets/Screenshot_2021-01-02_at_17.50.11.png)
      
@@ -42,7 +66,7 @@ Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
         - Update the weights in the opposite direction of the gradient (negative of the gradient) with a small step size.
     - How to derive gradient?
         - We need to compute, how changing a small amount in the weights is going to impact the loss.
-        - 
+        
             
             ![MIT Deep learning | 6.S191/MIT Deep learning 6 S191 9f4c15ee35bb4a19a48b400f31d95aa4/Screenshot_2021-01-02_at_18.52.32.png](assets/Screenshot_2021-01-02_at_18.52.32.png)
             
@@ -51,7 +75,7 @@ Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
                 ![MIT Deep learning | 6.S191/MIT Deep learning 6 S191 9f4c15ee35bb4a19a48b400f31d95aa4/Screenshot_2021-01-02_at_18.55.10.png](assets/Screenshot_2021-01-02_at_18.55.10.png)
                 
             - This is backpropagation
-        - 
+        
     - The learning rate, which is used to update the weights, can be small and also can be adaptive. There are various algorithms which does that.
 - Mini Batches
     - When we are doing the gradient descent, instead of taking the whole set of data points on the weight-loss plane at once, we can take a batch of them and compute the gradient for them and then take the average of this batch of gradient. This will help in calculating loss more efficiently
@@ -345,7 +369,6 @@ Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
             ```
             
 
-## Lecture 3: Convolutional Neural Networks
 
 ## Lecture 4: Deep Generative Modeling
 
@@ -373,6 +396,7 @@ Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
     - The loss of the network can be the difference between the reconstructed x_hat and the original x. You can use mean squared error. It's a pixel wise difference
     - The latent vector that autoencoders use are deterministic ones. i.e. they don't have any information about the probability of it
     - The dimensionality of the latent space will determine the quality of the generated sample. Higher the dim, better the reconstruction
+
 - Variational Autoencoders
     - Similar to autoencoders, but with a probabilistic twist.
     - While computing the latent vector, for each element in the vector we also save the mean and the standard deviation, which gives a probabilistic distribution for each of the latent variables
