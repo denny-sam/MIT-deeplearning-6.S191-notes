@@ -3,7 +3,7 @@
 Source: https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
 
 ## Contents
-[Lecture 1: Introduction to DL](#lecture-1:-introduction-to-dl)
+[Lecture 1: Introduction to DL](#lecture-1-introduction-to-dl)
 
 [Lecture 2: Recurrent Neural Networks](#lecture-2-recurrent-neural-networks)
 
